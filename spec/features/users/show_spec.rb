@@ -19,4 +19,8 @@ RSpec.describe "User Home Page" do
     click_button("Discover Movies")
     expect(current_path).to eq(user_discover_index_path(@user1.id))
   end
+
+  it 'and a section that lists viewing parties' do 
+    expect(page).to have_content("#{@user1.name}'s Viewing Parties")
+  end
 end
