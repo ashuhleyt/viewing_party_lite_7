@@ -29,6 +29,51 @@
           null
         ]
       },
+      "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/models/user_viewing_party.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/models/viewing_party.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/services/movie_service.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/controllers/welcome_controller.rb": {
         "lines": [
           1,
@@ -43,7 +88,7 @@
           1,
           1,
           1,
-          5,
+          15,
           null,
           null
         ]
@@ -56,24 +101,40 @@
           null,
           null,
           1,
-          2,
+          4,
           null,
-          2,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
+          4,
+          3,
+          3,
           null,
           1,
           1,
+          null,
+          null,
+          null,
+          null,
           1,
-          1,
+          4,
+          4,
+          4,
+          4,
           null,
           0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/controllers/discover_controller.rb": {
+        "lines": [
+          1,
+          1,
           null,
           null,
           null
@@ -121,59 +182,8 @@
         ],
         "branches": {
         }
-      },
-      "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/models/user_viewing_party.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/models/viewing_party.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/ashleyturner/turing/5mod/projects/viewing_party_lite_7/app/services/movie_service.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1709351385
+    "timestamp": 1709354848
   }
 }

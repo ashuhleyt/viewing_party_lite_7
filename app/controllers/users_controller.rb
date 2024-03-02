@@ -18,10 +18,17 @@ class UsersController < ApplicationController
 
   def show 
     if user_in_session
+      user_id = user_in_session
       @user = User.find(user_in_session)
       @users = User.all
     else 
       redirect_to '/', notice: 'You must be logged in to access'
     end
+  end
+
+
+  private
+  def user_params
+    params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 end

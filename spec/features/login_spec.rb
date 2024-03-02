@@ -13,11 +13,11 @@ RSpec.describe 'Welcome Index Page' do
   it 'when I have correct login credentials, i am taken to my dashboard' do 
     expect(page).to have_link("Login")
     click_link("Login")
-
     fill_in("Email", with: "Ashley@gmail.com")
     fill_in("Password", with: "123123")
     click_button "Log In"
     expect(current_path).to eq(user_path(@user1.id))
+
   end
 
   it 'when i have incorrect logins, i am still at the home page' do 

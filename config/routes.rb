@@ -5,17 +5,15 @@ Rails.application.routes.draw do
   # root "articles#index"
   root 'welcome#index'
 
-  # Registration Routes
   get '/register', to: 'users#new'
   post '/register', to: 'users#create'
 
-  # Login Routes
   get '/login', to: 'users#login_form'
   post '/login', to: 'users#login_user'
 
-  # Logout Route
   get '/logout', to: 'users#logout'
 
-  # User Resources
-  resources :users, only: [:show, :create]
+  resources :users, only: [:show, :create] do 
+    resources :discover, only: [:index]
+  end
 end
