@@ -32,6 +32,14 @@ class UsersController < ApplicationController
     end
   end
 
+  def logout 
+    # user = User.find_by(email: params[:email])
+    # require 'pry'; binding.pry
+    # session[:user_id] = user.id
+    # session.destroy 
+    # redirect_to root_path
+  end
+
 
   def show 
     if user_in_session
