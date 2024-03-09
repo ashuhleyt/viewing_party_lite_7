@@ -13,7 +13,6 @@ class UsersController < ApplicationController
       session[:user_id] = @user.id
       redirect_to user_path(@user.id)
       flash[:success] = "Welcome, #{@user.email}!"
-      # require 'pry'; binding.pry
     else  
       redirect_to register_path
       flash[:error] = "Please Fill In Required Fields"
@@ -33,11 +32,8 @@ class UsersController < ApplicationController
   end
 
   def logout 
-    # user = User.find_by(email: params[:email])
-    # require 'pry'; binding.pry
-    # session[:user_id] = user.id
-    # session.destroy 
-    # redirect_to root_path
+    session.destroy 
+    redirect_to root_path
   end
 
 
